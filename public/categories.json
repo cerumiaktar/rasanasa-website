@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/4dM6sxg/Books-Stationary.jpg",
+        "title": "Books & Stationary"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/CmbVTxQ/Denim-Shirt.jpg",
+        "title": "Man's Shirt"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/NTCKV9r/Food-Grocery.png",
+        "title": "Food & Grocery"
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/B3288sJ/Girl-s-Accessories.jpg",
+        "title": "Girl's Accessories"
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/6nC10bL/Home-Appliance.jpg",
+        "title": "Home Appliance"
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/6mLGhCY/Furniture.jpg",
+        "title": "Furniture"
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/CvX33Mh/Sports-Zone.png",
+        "title": "Sports Zone"
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/5RsvzL5/Electronic-Gadgets.jpg",
+        "title": "Electronic Gadgets"
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co.com/DKpFd8w/kid-zone.jpg",
+        "title": "Kids Zone"
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/M1XZRbk/Machinery.png",
+        "title": "Machinery"
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co.com/RYTqXdT/Shoes.jpg",
+        "title": "Shoes"
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co.com/HzBL0bB/p-1.jpg",
+        "title": "Filter Accessories"
+    }
+]
