@@ -1,7 +1,7 @@
 
 const LeftSideBar = () => {
     return (
-        <div className="w-4/12 space-y-6">
+        <div className="hidden sm:block md:w-4/12 space-y-6">
             {/* <div className="navbar">
                 <div className="flex-none">
                     <ul className="menu  px-1">

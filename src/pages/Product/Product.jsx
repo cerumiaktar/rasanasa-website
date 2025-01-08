@@ -6,6 +6,7 @@ const Product = ({ product }) => {
     return (
         <div>
             <Link to={`/product/${id}`}>
+                <div>
                 <div className="card bg-base-100 shadow-xl py-8 border">
                     <figure>
                         <img className="w-44 h-44"
@@ -18,6 +19,7 @@ const Product = ({ product }) => {
                         <p className="flex items-center text-xl text-[#0474BC] font-medium mt-2 mb-2"> <span><FaBangladeshiTakaSign /></span> {price}</p>
                         <p className="text-xl text-[#FF8539]">{review}</p>
                     </div>
+                </div>
                 </div>
             </Link>
         </div>

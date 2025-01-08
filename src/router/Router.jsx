@@ -9,6 +9,8 @@ import Description from "../pages/Description/Description";
 import RelatedProduct from "../pages/RelatedProduct/RelatedProduct";
 import RelatedProducts from "../pages/RelatedProducts/RelatedProducts";
 import AllProducts from "../pages/AllProducts/AllProducts";
+import Blogs from "../pages/Blogs/Blogs";
+import TrackOrder from "../pages/TrackOrder/TrackOrder";
 
 const router = createBrowserRouter([
     {
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
             {
                 path:'/allProducts',
                 element: <AllProducts></AllProducts>
+            },
+            {
+                path:'/blogs',
+                element:<Blogs></Blogs>
+            },
+            {
+                path: '/trackOrder',
+                element: <TrackOrder></TrackOrder>
             }
         ]
     }

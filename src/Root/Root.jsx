@@ -9,7 +9,7 @@ const Root = () => {
         <div>
             <Navbar></Navbar>
             <BottomNavbar></BottomNavbar>
-            <div className='flex-grow pb-10 pt-10'>
+            <div className='min-h-screen pb-10 pt-10'>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>

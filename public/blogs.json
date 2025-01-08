@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co.com/z5PsZzj/image-2.png",
+        "category": "Technology",
+        "title": "Top 5 Trends in AI for 2024",
+        "description": "Discover the latest breakthroughs in artificial intelligence, from generative models to ethical AI practices."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co.com/SmYTNzz/2.png",
+        "category": "Health",
+        "title": "10 Tips for a Balanced Diet",
+        "description": "Learn how to maintain a healthy lifestyle with simple dietary habits and mindful eating tips."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co.com/5LyngBZ/3.png",
+        "category": "Travel",
+        "title": "Exploring Hidden Gems in Asia",
+        "description": "Uncover off-the-beaten-path destinations in Asia that every traveler should explore."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co.com/hDQPDhW/4.png",
+        "category": "Finance",
+        "title": "Investment Tips for Beginners",
+        "description": "A guide to starting your investment journey with smart strategies and minimal risks."
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co.com/vQd4PvQ/5.png",
+        "category": "Lifestyle",
+        "title": "Organizing Your Day for Productivity",
+        "description": "Maximize your productivity with these simple yet effective daily planning techniques."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co.com/H43K2Ty/6.png",
+        "category": "Education",
+        "title": "Top Resources for Online Learning",
+        "description": "Enhance your skills and knowledge with these top online platforms and resources."
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co.com/KFLGg5Q/7.png",
+        "category": "Environment",
+        "title": "Sustainable Living Tips",
+        "description": "Learn how to reduce your carbon footprint with practical tips for sustainable living."
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co.com/1q4wZfC/8.png",
+        "category": "Fashion",
+        "title": "2024 Fashion Trends to Watch",
+        "description": "Stay ahead in the fashion game with the upcoming styles and trends for 2024."
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co.com/2nj4Q5g/9.png",
+        "category": "Sports",
+        "title": "Top Highlights from the 2024 Olympics",
+        "description": "Relive the best moments and remarkable achievements from the 2024 Olympic Games."
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/svB9phN/10.png",
+        "category": "Food",
+        "title": "Delicious Vegan Recipes to Try",
+        "description": "Experiment with mouthwatering vegan recipes that are both nutritious and easy to prepare."
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/nzXJx97/11.png",
+        "category": "Food",
+        "title": "Delicious Vegan Recipes to Try",
+        "description": "Experiment with mouthwatering vegan recipes that are both nutritious and easy to prepare."
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co.com/Tq0H1CZ/image.png",
+        "category": "Food",
+        "title": "Delicious Vegan Recipes to Try",
+        "description": "Experiment with mouthwatering vegan recipes that are both nutritious and easy to prepare."
+    }
+]

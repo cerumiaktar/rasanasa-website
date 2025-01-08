@@ -25,7 +25,7 @@ const RightSide = () => {
                     </details>
                 </div>
             </div>
-            <div className="grid grid-cols-4 gap-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
                 {
                     allProducts.map(allproduct => <AllProduct allProduct={allproduct}></AllProduct>)
                 }
