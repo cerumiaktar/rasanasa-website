@@ -11,6 +11,7 @@ import RelatedProducts from "../pages/RelatedProducts/RelatedProducts";
 import AllProducts from "../pages/AllProducts/AllProducts";
 import Blogs from "../pages/Blogs/Blogs";
 import TrackOrder from "../pages/TrackOrder/TrackOrder";
+import BlogDetailes from "../pages/BlogDetailes/BlogDetailes";
 
 const router = createBrowserRouter([
     {
@@ -55,6 +56,11 @@ const router = createBrowserRouter([
             {
                 path: '/trackOrder',
                 element: <TrackOrder></TrackOrder>
+            },
+            {
+                path:'/blog:id',
+                element:<BlogDetailes></BlogDetailes>,
+                loader: () =>fetch('../blogs.json')
             }
         ]
     }

@@ -4,7 +4,7 @@ const AllProduct = ({ allProduct }) => {
     const {product_img, title,review,price } = allProduct;
     return (
         <div>
-            <div className="card bg-base-100 shadow-xl py-8 border">
+            <div className="card bg-base-100 shadow-xl h-[350px] py-8 border">
                 <figure>
                     <img className="w-44 h-44"
                         src={product_img}

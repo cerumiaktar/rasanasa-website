@@ -7,14 +7,15 @@ import { RiShoppingBag3Line } from "react-icons/ri";
 import { FiShoppingCart } from "react-icons/fi";
 import TopSellingProducts from "../TopSellingProducts/TopSellingProducts";
 import RightSidebar from "../RightSidebar/RightSidebar";
-import RelatedProducts from "../RelatedProducts/RelatedProducts";
+
 
 const ProductDetails = () => {
     const products = useLoaderData();
+    // console.log(products);
     const { id } = useParams();
     const idInt = parseInt(id);
     const product = products.find(product => product.id === idInt)
-    console.log(product);
+    console.log(product, id);
 
 
 
