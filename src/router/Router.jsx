@@ -26,7 +26,7 @@ const router = createBrowserRouter([
                 path:"/product/:id",
                 element:<ProductDetails></ProductDetails>,
                 loader: async () => {
-                    const res = await fetch('/public/products.json');
+                    const res = await fetch('/products.json');
                     return res.json();
                 }
             },
