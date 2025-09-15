@@ -8,7 +8,7 @@ const RightSidebar = () => {
             <div className='bg-white shadow-lg  border'>
                 <div className='flex items-center gap-8 border-b p-4'>
                     <h1 className='text-xl font-medium text-[#0474BC]'>Description</h1>
-                    <h1 className='text-xl font-medium'>Review</h1>
+                    <h1 className='text-xl font-medium dark:text-[#333333]'>Review</h1>
                 </div>
                 <div>
                     <Description></Description>

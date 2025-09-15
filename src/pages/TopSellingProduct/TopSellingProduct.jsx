@@ -10,9 +10,9 @@ const TopSellingProduct = ({ topsellingproduct }) => {
                         alt="Movie" />
                 </figure>
                 <div className="pt-4 ml-4">
-                    <h2 className="card-title">{title}</h2>
+                    <h2 className="card-title dark:text-black">{title}</h2>
                     <p className="text-[#FF8539]">{review}</p>
-                    <p>{price}</p>
+                    <p className="dark:text-black">{price}</p>
                 </div>
             </div>
         </div>

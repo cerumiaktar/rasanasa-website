@@ -11,7 +11,7 @@ const TopSellingProducts = () => {
     }, [])
     return (
         <div className="bg-white shadow-lg border">
-            <h1 className="text-xl font-medium border-b pl-4 py-4 mb-4">Top Selling Products</h1>
+            <h1 className="text-xl font-medium border-b pl-4 py-4 mb-4 dark:text-black">Top Selling Products</h1>
             <div className="px-4">
                 {
                     topSellingProducts.map(topsellingproduct => <TopSellingProduct topsellingproduct = {topsellingproduct} ></TopSellingProduct>)

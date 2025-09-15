@@ -11,11 +11,11 @@ const Description = () => {
     return (
         <div>
             <div className="p-8 space-y-2">
-                <h1 className="text-lg font-medium">{description.title}</h1>
-                <p> <span className="text-lg font-medium">Category: </span>{description.category} </p>
-                <p> <span className="text-lg font-medium">Brand: </span>{description.brand} </p>
-                <p className="text-lg font-medium">Product Description:</p>
-                <div className="w-10/12">
+                <h1 className="text-lg font-medium dark:text-black">{description.title}</h1>
+                <p className="dark:text-[#333333]"> <span className="text-lg font-medium dark:text-black">Category: </span>{description.category} </p>
+                <p className="dark:text-[#333333]"> <span className="text-lg font-medium dark:text-black">Brand: </span>{description.brand} </p>
+                <p className="text-lg font-medium dark:text-black">Product Description:</p>
+                <div className="w-10/12 dark:text-[#333333]">
                     <p>{description.product_description}</p>
                     {/* <p><span>Model: </span>22-G</p>
                 <p><span>Weight: </span>1 kg</p>
@@ -34,7 +34,7 @@ const Description = () => {
                 </p> */}
                 </div>
                 <br />
-                <p className="w-10/12">Rasanasa is a brand that symbolizes the rich heritage and diverse flavors of traditional cuisine, blending time-honored recipes with modern culinary techniques. Known for its dedication to quality and authenticity, Rasanasa offers a wide range of products and services aimed at bringing the essence of cultural gastronomy to every table. Whether it is delectable spices, curated meal kits, or immersive cooking experiences, Rasanasa promises to deliver a taste journey that delights the senses and warms the heart. Perfect for those who cherish the art of cooking and the joy of sharing delicious moments.</p>
+                <p className="w-10/12 dark:text-[#333333]">Rasanasa is a brand that symbolizes the rich heritage and diverse flavors of traditional cuisine, blending time-honored recipes with modern culinary techniques. Known for its dedication to quality and authenticity, Rasanasa offers a wide range of products and services aimed at bringing the essence of cultural gastronomy to every table. Whether it is delectable spices, curated meal kits, or immersive cooking experiences, Rasanasa promises to deliver a taste journey that delights the senses and warms the heart. Perfect for those who cherish the art of cooking and the joy of sharing delicious moments.</p>
 
             </div>
         </div>
