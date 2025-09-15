@@ -11,7 +11,7 @@ const Navbar = () => {
                     <img src="https://i.ibb.co.com/1KRv8pD/logo.png" alt="" />
                 </div>
                 <div className="w-6/12 relative">
-                    <input className="w-full p-2 rounded" type="text" placeholder="Search"/>
+                    <input className="w-full p-2 rounded dark:bg-white" type="text" placeholder="Search"/>
                     <p className="bg-[#FCB840] px-4 py-2 absolute inset-y-0 right-0 text-2xl rounded-r text-white"><IoSearch /></p>
                 </div>
                 <div className="flex-none gap-6 w-4/12 navbar-end">
@@ -19,7 +19,7 @@ const Navbar = () => {
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
                             <div className="indicator">
                                 <p className="text-2xl text-white"><RiShoppingBag3Line /></p>
-                                <span className="badge badge-sm indicator-item">8</span>
+                                <span className="badge badge-sm indicator-item dark:bg-white dark:border-none dark:text-black">8</span>
                             </div>
                             <p className="text-base text-white">Cart</p>
                         </div>

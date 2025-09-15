@@ -10,7 +10,7 @@ const BottomNavbar = () => {
         <li><NavLink to='/trackOrder'>Track Order</NavLink> </li>
     </>
     return (
-        <div className=" bg-white shadow-lg">
+        <div className=" bg-white dark:bg-white shadow-lg">
             <div className="navbar bg-base-100 container mx-auto">
                 <div className="">
                     <div className="dropdown">
