@@ -10,8 +10,8 @@ const BottomNavbar = () => {
         <li><NavLink to='/trackOrder'>Track Order</NavLink> </li>
     </>
     return (
-        <div className=" bg-white dark:bg-white shadow-lg">
-            <div className="navbar bg-base-100 container mx-auto">
+        <div className=" bg-white  shadow-lg">
+            <div className="navbar bg-base-100 dark:bg-white container mx-auto">
                 <div className="">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
