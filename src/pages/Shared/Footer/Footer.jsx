@@ -25,31 +25,31 @@ const Footer = () => {
                 <nav>
                     <h6 className="footer-title border-b-2 border-[#333333] pb-2 dark:text-black">Additional Information</h6>
                     <a className="link link-hover dark: text-[#333333]">Terms & Conditions</a>
-                    <a className="link link-hover">Return Policy</a>
-                    <a className="link link-hover">Support Policy</a>
-                    <a className="link link-hover">Privacy Policy</a>
-                    <a className="link link-hover">Delete Account</a>
-                    <a className="link link-hover">Licence : 009750/2024</a>
+                    <a className="link link-hover dark:text-[#333333]">Return Policy</a>
+                    <a className="link link-hover dark:text-[#333333]">Support Policy</a>
+                    <a className="link link-hover dark:text-[#333333]">Privacy Policy</a>
+                    <a className="link link-hover dark:text-[#333333]">Delete Account</a>
+                    <a className="link link-hover dark:text-[#333333]">Licence : 009750/2024</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title border-b-2 border-[#333333] pb-2 dark:text-black">My Account</h6>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Login</a>
-                    <a className="link link-hover">Order History</a>
-                    <a className="link link-hover">My Wishlist</a>
-                    <a className="link link-hover">Track Order</a>
-                    <button className="btn bg-[#0474BC] text-white">Seller</button>
+                    <a className="link link-hover dark:text-[#333333]">About us</a>
+                    <a className="link link-hover dark:text-[#333333]">Login</a>
+                    <a className="link link-hover dark:text-[#333333]">Order History</a>
+                    <a className="link link-hover dark:text-[#333333]">My Wishlist</a>
+                    <a className="link link-hover dark:text-[#333333]">Track Order</a>
+                    <button className="btn bg-[#0474BC] text-white dark:border-none">Seller</button>
                 </nav>
                 <nav>
                     <h6 className="footer-title border-b-2 border-[#333333] pb-2 dark:text-black">Contact Info</h6>
-                    <a className="link link-hover">Address: Building-207, Ranavola Avenue <br /> Main Road, Sector-10, Uttara, Dhaka-1230</a>
-                    <a className="link link-hover">Phone: 01605229868 (bkash payment)</a>
-                    <a className="link link-hover">Email: support@rasanasa.com</a>
+                    <a className="link link-hover dark:text-[#333333]">Address: Building-207, Ranavola Avenue <br /> Main Road, Sector-10, Uttara, Dhaka-1230</a>
+                    <a className="link link-hover dark:text-[#333333]">Phone: 01605229868 (bkash payment)</a>
+                    <a className="link link-hover dark:text-[#333333]">Email: support@rasanasa.com</a>
                     <div className="flex items-center gap-6 mt-4 ">
-                        <span className="border border-black p-2 rounded-full"><FaFacebookF /></span>
-                        <span className="border border-black p-2 rounded-full"><FaInstagram /></span>
-                        <span className="border border-black p-2 rounded-full"><FaYoutube /></span>
-                        <span className="border border-black p-2 rounded-full"><FaLinkedinIn /></span>
+                        <span className="border border-black p-2 rounded-full dark:text-black"><FaFacebookF /></span>
+                        <span className="border border-black p-2 rounded-full dark:text-black"><FaInstagram /></span>
+                        <span className="border border-black p-2 rounded-full dark:text-black"><FaYoutube /></span>
+                        <span className="border border-black p-2 rounded-full dark:text-black"><FaLinkedinIn /></span>
                     </div>
                 </nav>
             </footer>
