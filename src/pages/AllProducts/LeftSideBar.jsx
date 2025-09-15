@@ -31,7 +31,7 @@ const LeftSideBar = () => {
                 </div>
             </div> */}
             <div className="bg-white shadow-lg border px-4 py-6 ">
-                <select className="select select-bordered w-full max-w-xs">
+                <select className="select select-bordered dark:bg-white dark:text-black w-full max-w-xs">
                     <option disabled selected>Category</option>
                     <option>Home Appliance & Lifestyle</option>
                     <option>Foreign Products</option>
@@ -50,12 +50,12 @@ const LeftSideBar = () => {
                     <option>Digital Products</option>
                 </select>
             </div>
-            <div className="bg-white shadow-lg border px-4 py-4">
-                <h1 className="text-base font-medium mb-2">Price Range</h1>
+            <div className="bg-white shadow-lg border px-4 py-4 ">
+                <h1 className="text-base dark:text-black font-medium mb-2">Price Range</h1>
                 <input type="range" min={0} max="100" value="40" className="range" />
             </div>
             <div className="bg-white shadow-lg border px-4 py-6">
-                <select className="select select-bordered w-full join-item">
+                <select className="select select-bordered dark:bg-white dark:text-black w-full join-item">
                     <option disabled selected>Filter by Brand name</option>
                     <option>Sci-fi</option>
                     <option>Drama</option>
@@ -63,7 +63,7 @@ const LeftSideBar = () => {
                 </select>
             </div>
             <div className="bg-white shadow-lg border px-4 py-6">
-                <select className="select select-bordered w-full join-item">
+                <select className="select select-bordered w-full dark:bg-white dark:text-black join-item">
                     <option disabled selected>Filter by Size</option>
                     <option>Sci-fi</option>
                     <option>Drama</option>
@@ -71,7 +71,7 @@ const LeftSideBar = () => {
                 </select>
             </div>
             <div className="bg-white shadow-lg border px-4 py-6">
-                <select className="select select-bordered w-full join-item">
+                <select className="select select-bordered dark:bg-white dark:text-black w-full join-item">
                     <option disabled selected>Filter by Fabric</option>
                     <option>Sci-fi</option>
                     <option>Drama</option>
@@ -79,7 +79,7 @@ const LeftSideBar = () => {
                 </select>
             </div>
             <div className="bg-white shadow-lg border px-4 py-6">
-                <select className="select select-bordered w-full join-item">
+                <select className="select select-bordered dark:bg-white dark:text-black w-full join-item">
                     <option disabled selected>Filter by Pant Size</option>
                     <option>Sci-fi</option>
                     <option>Drama</option>

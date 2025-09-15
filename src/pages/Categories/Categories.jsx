@@ -13,8 +13,8 @@ const Categories = () => {
     return (
         <div className="container mx-auto mb-14">
             <div className="flex justify-between items-center mt-8 mb-8">
-                <h1 className="text-3xl font-medium">Categories</h1>
-                <p className="text-xl">See All</p>
+                <h1 className="text-3xl font-medium dark:text-black">Categories</h1>
+                <p className="text-xl dark:text-[#333333]">See All</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-6 gap-10">
                 {

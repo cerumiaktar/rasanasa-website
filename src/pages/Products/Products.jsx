@@ -14,8 +14,8 @@ const Products = () => {
     return (
         <div className="container mx-auto">
             <div className="flex justify-between items-center mt-8 mb-8">
-                <h1 className="text-3xl font-medium">Products</h1>
-                <p className="text-xl">See All</p>
+                <h1 className="text-3xl font-medium dark:text-black">Products</h1>
+                <p className="text-xl dark:text-[#333333]">See All</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {
