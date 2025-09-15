@@ -4,7 +4,7 @@ const Blog = ({ blog }) => {
     const { id, img, category, title, description } = blog;
     return (
         <div className="flex grow">
-            <div className="card bg-base-100 shadow-xl">
+            <div className="card bg-base-100 dark:bg-white shadow-xl">
                 <figure>
                     <img
                         src={img}
@@ -12,10 +12,10 @@ const Blog = ({ blog }) => {
                 </figure>
                 <div className="card-body">
                     <p className="text-[#0474BC] font-medium">{category}</p>
-                    <h2 className="card-title">{title}</h2>
-                    <p>{description}</p>
+                    <h2 className="card-title dark:text-black">{title}</h2>
+                    <p className="dark:text-[#333333]">{description}</p>
                     <div className="card-actions ">
-                        <button className="btn bg-[#0474BC] text-base text-white w-full">View More</button>
+                        <button className="btn bg-[#0474BC] text-base text-white w-full dark:border-none">View More</button>
                     </div>
                 </div>
             </div>

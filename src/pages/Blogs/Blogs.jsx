@@ -12,7 +12,7 @@ const Blogs = () => {
     } ,[])
     return (
         <div className="container mx-auto">
-            <h1 className="text-2xl font-medium mb-8">Blogs</h1>
+            <h1 className="text-2xl font-medium mb-8 dark:text-black">Blogs</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 ">
                 {
                     blogs.map((blog, idx) => <Blog key={idx} blog={blog}></Blog> )
