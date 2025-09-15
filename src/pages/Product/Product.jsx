@@ -14,7 +14,7 @@ const Product = ({ product }) => {
                                 alt="product" />
                         </figure>
                         <div className="px-6 mt-4">
-                            <h2 className="card-title">
+                            <h2 className="card-title dark:text-black">
                                 {title}</h2>
                             <p className="flex items-center text-xl text-[#0474BC] font-medium mt-2 mb-2"> <span><FaBangladeshiTakaSign /></span> {price}</p>
                             <p className="text-xl text-[#FF8539]">{review}</p>

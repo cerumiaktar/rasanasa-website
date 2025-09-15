@@ -54,7 +54,7 @@ const BottomNavbar = () => {
                     </select>
                 </div>
                 <div className="navbar-start hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 text-lg">
+                    <ul className="menu menu-horizontal dark:text-[#333333] px-1 text-lg">
                         {links}
                     </ul>
                 </div>
