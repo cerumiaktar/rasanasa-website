@@ -6,7 +6,7 @@ import Footer from '../pages/Shared/Footer/Footer';
 
 const Root = () => {
     return (
-        <div>
+        <div className='dark:bg-white'>
             <Navbar></Navbar>
             <BottomNavbar></BottomNavbar>
             <div className='min-h-screen pb-10 pt-10'>

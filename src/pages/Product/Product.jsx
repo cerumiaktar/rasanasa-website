@@ -7,7 +7,7 @@ const Product = ({ product }) => {
         <div>
             <Link to={`/product/${id}`}>
                 <div>
-                    <div className="card bg-base-100 shadow-xl py-8 border h-[35npm 0px]">
+                    <div className="card bg-base-100 dark:bg-white shadow-xl py-8 border h-[35npm 0px]">
                         <figure>
                             <img className="w-44 h-44"
                                 src={product_img}

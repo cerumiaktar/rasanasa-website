@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaLinkedinIn } from "react-icons/f
 
 const Footer = () => {
     return (
-        <div className="bg-base-200">
+        <div className="bg-base-200 dark:bg-base-200 ">
             <footer className="footer text-base-content p-10 container mx-auto">
                 <aside>
                     <img src="https://i.ibb.co.com/30KnQxX/rasanasa-logo.png" alt="" />
