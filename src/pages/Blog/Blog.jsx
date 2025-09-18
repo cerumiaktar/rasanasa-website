@@ -15,7 +15,7 @@ const Blog = ({ blog }) => {
                     <h2 className="card-title dark:text-black">{title}</h2>
                     <p className="dark:text-[#333333]">{description}</p>
                     <div className="card-actions ">
-                        <button className="btn bg-[#0474BC] text-base text-white w-full dark:border-none">View More</button>
+                        <button className="btn bg-[#0474BC] text-base text-white md:w-full dark:border-none">View More</button>
                     </div>
                 </div>
             </div>
