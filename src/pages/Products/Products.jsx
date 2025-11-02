@@ -17,7 +17,7 @@ const Products = () => {
                 <h1 className="text-3xl font-medium dark:text-black">Products</h1>
                 <p className="text-xl dark:text-[#333333]">See All</p>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
                 {
                     products.map((product, idx) => <Product key={idx} product={product}></Product>)
                 }
