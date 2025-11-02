@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
 import Product from "../Product/Product";
+import { Link } from "react-router-dom";
 
 
 const Products = () => {
@@ -15,7 +15,7 @@ const Products = () => {
         <div className="container mx-auto">
             <div className="flex justify-between items-center mt-8 mb-8">
                 <h1 className="text-3xl font-medium dark:text-black">Products</h1>
-                <p className="text-xl dark:text-[#333333]">See All</p>
+                <Link to='/allProducts'><p className="text-xl dark:text-[#333333]">See All</p></Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
                 {
