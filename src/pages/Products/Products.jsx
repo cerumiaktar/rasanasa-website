@@ -23,7 +23,7 @@ const Products = () => {
                 }
             </div>
             <div className="text-center">
-                <button className="mt-8 mb-8 font-medium border px-4 py-2 btn-outline border-[#0474BC] text-[#0474BC] rounded">Load More</button>
+                <Link to='/allProducts'><button className="mt-8 mb-8 font-medium border px-4 py-2 btn-outline border-[#0474BC] hover:bg-[#FFB347] hover:border-none text-[#0474BC] rounded">Load More</button></Link>
             </div>
         </div>
     );
